@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="SQL Table" position="(150, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owsql.OWSql" title="SQL Table" version="" />
+		<node id="1" name="Data Table" position="(295.0, 161.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="2" name="Tree Viewer" position="(566.0, 294.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owtreeviewer.OWTreeGraph" title="Tree Viewer" version="" />
+		<node id="3" name="Tree" position="(428.0, 173.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" title="Tree" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="3" source_channel="Selected Data" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Tree" sink_node_id="2" source_channel="Model" source_node_id="3" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'controlAreaVisible': True, 'database': 'postgres', 'download': True, 'guess_values': True, 'host': '127.0.0.1', 'materialize': False, 'materialize_table_name': '', 'port': None, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\x16\x00\x00\x00b\x00\x00\x03}\x00\x00\x02\x80\x00\x00\x02\x1e\x00\x00\x00\x81\x00\x00\x03u\x00\x00\x02x\x00\x00\x00\x00\x00\x00\x00\x00\x05V', 'schema': 'fin', 'sql': 'SELECT vl_launch_value, tp_installment, id_allocation FROM fin.tb_book_entry', 'table': 'Custom SQL', '__version__': 2}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQzIB2dDLAAIAAAAAARMAAABTAAAEQgAAAm0AAAEbAAAAcgAABDoA
+AAJlAAAAAAAAAAAFVnEHWAsAAABzZWxlY3Rfcm93c3EIiFgNAAAAc2VsZWN0ZWRfY29sc3EJXXEK
+WA0AAABzZWxlY3RlZF9yb3dzcQtdcQxYFQAAAHNob3dfYXR0cmlidXRlX2xhYmVsc3ENiFgSAAAA
+c2hvd19kaXN0cmlidXRpb25zcQ6IWAsAAABfX3ZlcnNpb25fX3EPSwFYEAAAAGNvbnRleHRfc2V0
+dGluZ3NxEF1xEShjT3JhbmdlLndpZGdldHMuc2V0dGluZ3MKQ29udGV4dApxEimBcRN9cRQoWAQA
+AAB0aW1lcRVHQdcnBgEpizpYBgAAAHZhbHVlc3EWfXEXaA9LAXNYCgAAAGF0dHJpYnV0ZXNxGH1x
+GShYDwAAAHZsX2xhdW5jaF92YWx1ZXEaSwJYDgAAAHRwX2luc3RhbGxtZW50cRtdcRwoWAEAAAAx
+cR1YAQAAADJxHmVYDQAAAGlkX2FsbG9jYXRpb25xH11xIChYAQAAADhxIVgBAAAAOXEiWAIAAAAx
+MHEjWAMAAAAxODBxJFgDAAAAMTgxcSVldVgFAAAAbWV0YXNxJn1xJ3ViaBIpgXEofXEpKGgVR0HX
+JwX2VXhjaBZ9cSpoD0sBc2gYfXErKGgaSwJoG2gcaB9oIFgRAAAAaWRfY2xhc3NpZmljYXRpb25x
+LF1xLShYAQAAADlxLlgCAAAAMTFxL1gCAAAAMTJxMFgCAAAAMTZxMVgCAAAAMTlxMlgCAAAAMjBx
+M1gCAAAAMjVxNFgCAAAAMjZxNVgCAAAAMjhxNlgCAAAAMzBxN1gCAAAAODNxOFgDAAAAMjUwcTll
+WBQAAABpZF9zdWJjbGFzc2lmaWNhdGlvbnE6SwJ1aCZ9cTt1YmgSKYFxPH1xPShoFUdB1ycF6ocf
+uGgWfXE+aA9LAXNoGH1xP1gIAAAAP2NvbHVtbj9xQF1xQVgFAAAAdGVzdGVxQmFzaCZ9cUN1YmgS
+KYFxRH1xRShoFUdB1ycF6QHqHGgWfXFGaA9LAXNoGH1xRyhoGksCWAQAAABjYXNlcUhdcUkoWAEA
+AAAxcUpYAQAAADNxS1gBAAAAN3FMWAIAAAAxMHFNZVgMAAAAZHRfcmVmZXJlbmNlcU5LBGgbaBxo
+H2ggaCxoLWg6SwJ1aCZ9cU8oWA8AAABubV9mb3JtX3BheW1lbnRxUEsDWA8AAABubV9wYXltZW50
+X2RhdGFxUUsDdXViaBIpgXFSfXFTKGgVR0HXJwXofS+waBZ9cVRoD0sBc2gYfXFVKGgaSwJYBAAA
+AGNhc2VxVksCaE5LBFgNAAAAaWRfYWxsb2NhdGlvbnFXSwJYEQAAAGlkX2NsYXNzaWZpY2F0aW9u
+cVhLAmg6SwJ1aCZ9cVkoaFBLA2hRSwNYDgAAAHRwX2luc3RhbGxtZW50cVpLA3V1YmgSKYFxW31x
+XChoFUdB1ycFb7on3WgWfXFdaA9LAXNoGH1xXihoGksCWA8AAABudV9pbnN0YWxsbWVudHNxX11x
+YChYAQAAADFxYVgBAAAAM3FiWAEAAAA3cWNYAgAAADEwcWRlaE5LBGgbaBxoH2ggaCxoLWg6SwJ1
+aCZ9cWUoaFBLA2hRSwN1dWJldS4=
+</properties>
+		<properties format="literal" node_id="2">{'controlAreaVisible': True, 'line_width_method': 2, 'max_node_width': 150, 'max_tree_depth': 0, 'regression_colors': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01\x13\x00\x00\x00S\x00\x00\x04B\x00\x00\x02m\x00\x00\x01\x1b\x00\x00\x00r\x00\x00\x04:\x00\x00\x02e\x00\x00\x00\x00\x00\x00\x00\x00\x05V', 'zoom': 5, '__version__': 1, 'context_settings': []}</properties>
+		<properties format="literal" node_id="3">{'auto_apply': False, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': 'Tree', 'limit_depth': True, 'limit_majority': True, 'limit_min_internal': True, 'limit_min_leaf': True, 'max_depth': 100, 'min_internal': 5, 'min_leaf': 6, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\n\x00\x00\x00\xae\x00\x00\x03L\x00\x00\x02\x13\x00\x00\x02\x12\x00\x00\x00\xcd\x00\x00\x03D\x00\x00\x02\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x05V', 'sufficient_majority': 95, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
